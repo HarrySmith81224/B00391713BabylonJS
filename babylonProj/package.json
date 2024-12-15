@@ -1,0 +1,26 @@
+{
+  "name": "testproj",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host",
+    "element01build": "tsc && vite build element01",
+    "element01preview": "vite preview element01 --host",
+    "element02build": "tsc && vite build element02",
+    "element02preview": "vite preview element02 --host",
+    "element03build": "vite build element03",
+    "element03preview": "vite preview element03 --host",
+    "element04build": "vite build element04",
+    "element04preview": "vite preview element04 --host",
+    "element05build": "vite build element05",
+    "element05preview": "vite preview element05 --host",
+    "havok": "cp /workspaces/B00391713BabylonJS/node_modules/@babylonjs/havok/lib/esm/HavokPhysics.wasm /workspaces/B00391713BabylonJS/babylonProj/node_modules/.vite/deps"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1"
+  }
+}
